@@ -1,0 +1,20 @@
+# Python-bestanden die niet naar GitHub moeten
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# IDE-bestanden (PyCharm, VS Code, etc.)
+.vscode/
+.idea/
+*.iml
+
+# Logbestanden en tijdelijke bestanden
+*.log
+.DS_Store
+
+# Railway en gevoelige bestanden
+config.json
+*.env
